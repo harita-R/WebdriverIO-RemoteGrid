@@ -1,0 +1,49 @@
+{"level":"info","time":"2020-12-23T01:21:41.301+0530","caller":"cobra/command.go:766","msg":"LambdaTest Tunnel version: 3.1.5"}
+{"level":"debug","time":"2020-12-23T01:21:41.302+0530","caller":"cmd/lt.go:155","msg":"Starting pipeline....."}
+{"level":"debug","time":"2020-12-23T01:21:41.303+0530","caller":"cmd/lt.go:155","msg":"Fetching config"}
+{"level":"debug","time":"2020-12-23T01:21:43.066+0530","caller":"cmd/lt.go:155","msg":"Remote config fetched"}
+{"level":"debug","time":"2020-12-23T01:21:43.067+0530","caller":"core/lifecycle.go:136","msg":"Starting API server"}
+{"level":"debug","time":"2020-12-23T01:21:43.067+0530","caller":"runtime/asm_amd64.s:1373","msg":"Trying on port 22"}
+{"level":"debug","time":"2020-12-23T01:21:43.067+0530","caller":"runtime/asm_amd64.s:1373","msg":"Trying over ws"}
+{"level":"debug","time":"2020-12-23T01:21:43.067+0530","caller":"apiserver/setup.go:173","msg":"Starting API server for tunnel info on port: 60571"}
+{"level":"debug","time":"2020-12-23T01:21:43.067+0530","caller":"core/lifecycle.go:122","msg":"Starting sink proxy"}
+{"level":"debug","time":"2020-12-23T01:21:43.067+0530","caller":"runtime/asm_amd64.s:1373","msg":"Trying on port 443"}
+{"level":"debug","time":"2020-12-23T01:21:43.169+0530","caller":"custom/setup.go:624","msg":"sink proxy started at :9090"}
+{"level":"debug","time":"2020-12-23T01:21:43.414+0530","caller":"runtime/asm_amd64.s:1373","msg":"WSS connection was successful"}
+{"level":"debug","time":"2020-12-23T01:21:43.872+0530","caller":"runtime/asm_amd64.s:1373","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2020-12-23T01:21:43.981+0530","caller":"runtime/asm_amd64.s:1373","msg":"SSH connection over port 22 successful"}
+{"level":"debug","time":"2020-12-23T01:21:44.134+0530","caller":"runtime/asm_amd64.s:1373","msg":"SSH connection over ws successful"}
+{"level":"info","time":"2020-12-23T01:21:44.134+0530","caller":"core/lifecycle.go:99","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2020-12-23T01:21:44.135+0530","caller":"cmd/lt.go:155","msg":"Launching tunnel"}
+{"level":"debug","time":"2020-12-23T01:21:44.135+0530","caller":"core/lifecycle.go:208","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2020-12-23T01:21:45.409+0530","caller":"core/lifecycle.go:208","msg":"Control ws channel opened"}
+{"level":"debug","time":"2020-12-23T01:21:45.410+0530","caller":"runtime/asm_amd64.s:1373","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2020-12-23T01:21:46.686+0530","caller":"runtime/asm_amd64.s:1373","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2020-12-23T01:21:46.686+0530","caller":"core/lifecycle.go:257","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2020-12-23T01:21:46.686+0530","caller":"runtime/asm_amd64.s:1373","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2020-12-23T01:21:46.686+0530","caller":"runtime/asm_amd64.s:1373","msg":"controller bus registered"}
+{"level":"debug","time":"2020-12-23T01:21:48.207+0530","caller":"runtime/asm_amd64.s:1373","msg":"Successfully started remote listener on port: 10387"}
+{"level":"debug","time":"2020-12-23T01:21:48.216+0530","caller":"runtime/asm_amd64.s:1373","msg":"Successfully started remote listener on port: 13524"}
+{"level":"info","time":"2020-12-23T01:21:48.216+0530","caller":"runtime/asm_amd64.s:1373","msg":"You can start testing now"}
+{"level":"info","time":"2020-12-23T01:21:48.216+0530","caller":"runtime/asm_amd64.s:1373","msg":"Tunnel ID: 327042"}
+{"level":"debug","time":"2020-12-23T01:21:48.216+0530","caller":"runtime/asm_amd64.s:1373","msg":"Remote Listener Started on Port 23828"}
+{"level":"debug","time":"2020-12-23T01:21:48.376+0530","caller":"runtime/asm_amd64.s:1373","msg":"Successfully started remote listener on port: 10690"}
+{"level":"debug","time":"2020-12-23T01:21:48.429+0530","caller":"runtime/asm_amd64.s:1373","msg":"Successfully started remote listener on port: 19521"}
+{"level":"debug","time":"2020-12-23T01:21:48.478+0530","caller":"runtime/asm_amd64.s:1373","msg":"Successfully started remote listener on port: 25796"}
+{"level":"debug","time":"2020-12-23T01:21:51.756+0530","caller":"runtime/asm_amd64.s:1373","msg":"handling connect request for URL //www.gstatic.com:443"}
+{"level":"debug","time":"2020-12-23T01:21:51.799+0530","caller":"runtime/asm_amd64.s:1373","msg":"handling connect request for URL //accounts.google.com:443"}
+{"level":"debug","time":"2020-12-23T01:21:55.376+0530","caller":"runtime/asm_amd64.s:1373","msg":"handling connect request for URL //the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2020-12-23T01:21:55.376+0530","caller":"runtime/asm_amd64.s:1373","msg":"handling connect request for URL //the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2020-12-23T01:21:58.185+0530","caller":"runtime/asm_amd64.s:1373","msg":"handling connect request for URL //the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2020-12-23T01:21:58.190+0530","caller":"runtime/asm_amd64.s:1373","msg":"handling connect request for URL //the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2020-12-23T01:21:58.199+0530","caller":"runtime/asm_amd64.s:1373","msg":"handling connect request for URL //the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2020-12-23T01:21:58.206+0530","caller":"runtime/asm_amd64.s:1373","msg":"handling connect request for URL //the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2020-12-23T01:22:01.172+0530","caller":"runtime/asm_amd64.s:1373","msg":"handling connect request for URL //298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2020-12-23T01:22:12.740+0530","caller":"runtime/asm_amd64.s:1373","msg":"handling connect request for URL //298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2020-12-23T01:22:12.740+0530","caller":"runtime/asm_amd64.s:1373","msg":"handling connect request for URL //298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2020-12-23T01:22:18.366+0530","caller":"cmd/lt.go:155","msg":"Context cancelled"}
+{"level":"debug","time":"2020-12-23T01:22:18.366+0530","caller":"runtime/asm_amd64.s:1373","msg":"Shutting down the server"}
+{"level":"debug","time":"2020-12-23T01:22:18.366+0530","caller":"custom/setup.go:624","msg":"Exiting the sink proxy"}
+{"level":"info","time":"2020-12-23T01:22:18.366+0530","caller":"cmd/lt.go:155","msg":"Stopping tunnel"}
+{"level":"debug","time":"2020-12-23T01:22:18.367+0530","caller":"runtime/asm_amd64.s:1373","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2020-12-23T01:22:18.367+0530","caller":"runtime/asm_amd64.s:1373","msg":"Write loop ended for control channel"}
